@@ -4,6 +4,7 @@
 #### Upgrade Ubuntu server to latest packages
   -  sudo apt-get update
   -  sudo apt-get upgrade
+  -  reboot
   
 ### Step 2
 #### Install OpenVPN
@@ -17,4 +18,4 @@
   
 ### Step 4
 #### Download client.ovpn to client
-  -  scp root@SERVER_IP:path_to_client.ovpn out_path (ex: scp root@127.0.0.1:client.ovpn /home/user/Desktop/
+  -  scp root@SERVER_IP:path_to_client.ovpn out_path (ex: scp root@127.0.0.1:client.ovpn /home/user/Desktop/)
